@@ -33,6 +33,15 @@ nav li {
     top: 80px;
 }
 
+main h1 {
+    color: #333333;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 80px;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
 
 .jumbotron {
     height: 900px;
