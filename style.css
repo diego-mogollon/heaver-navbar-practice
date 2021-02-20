@@ -2,7 +2,14 @@
 html, body {
     margin: 0;
     padding: 0;
-  }
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
 
 .jumbotron {
     height: 900px;
@@ -12,4 +19,10 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
     background-position: center bottom;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    
 }
