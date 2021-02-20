@@ -34,13 +34,22 @@ nav li {
 }
 
 main h1 {
-    color: #333333;
+    color: #ffffff;
     font-family: 'raleway', sans-serif;
     font-weight: 600;
     font-size: 70px;
     margin-top: 80px;
     padding-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
+}
+main h3 {
+    color: #ffffff;
+    font-family: 'raleway', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 
 .jumbotron {
