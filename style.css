@@ -109,23 +109,46 @@ footer li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.supporting {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    margin: 30px;
+}
 
+.supporting .col {
+    font-family: 'raleway', sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    align-items: center;
+}
 
-/* SAMPLE CODE */
+.supporting img {
+    height: 32px;
+}
+
+.supporting h2{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: ;
+}
+
+@media (max-width: 500px) {
+    main h1 {
+      font-size: 50px;
+      padding: 0 40px;
+    }
+  
+    .supporting .col {
+      width: 100%;
+      margin: 40px;
+    }
+
+/* Test Code */
 /* 
 
-  
-  .btn-main {
-    background-color: #333;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 1.3px;
-    padding: 16px 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
   
   .btn-default {
     font-family: 'Raleway', sans-serif;
@@ -137,60 +160,5 @@ footer li {
     text-transform: uppercase;  
     margin-bottom: 20px;      
   }
-  
-  .supporting {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    margin:30px;
-  }
-  
-  .supporting .col {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    display: inline-block;
-    width: 200px;
-  }
-  
-  .supporting img {
-    height: 32px;
-  }
-  
-  .supporting h2 {
-    font-weight: 600;
-    font-size: 23px;
-    text-transform: uppercase;
-  }
-  
-  .supporting p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-  }
-  
-  .supporting a {
-    background-color: white;
-    color: #333333;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 1.3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #333333; 
-  }
-  
-  @media (max-width: 500px) {
-    main h1 {
-      font-size: 50px;
-      padding: 0 40px;
-    }
-  
-    .supporting .col {
-      width: 100%;
-      margin: 40px;
-    }
+
   } */
